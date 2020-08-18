@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css-reset.css"> -->
+    <!-- Everything will be reset no matter what we cannot style it as after styling css reset is done -->
+    <link rel="stylesheet" href="css-reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8c57be573e.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href=""><img src="images/logo-roar-bikes.png" alt="Logo for bike repair"></a>
+            <nav>
+                <!-- We have already made button so we are gonna just use it using a.mybutton -->
+                <a href="" class="navButtons">Book Us</a>
+                <a href="" class="navButtons">About</a>
+                <a href="contact-us.html" class="navButtons">Contact</a>
+            </nav>
+        </header>
+        <main>
+                    <div class="herobox1">
+                    <h1>Mobile bike repairs.</h1>
+                    <p>Many people have difficulty getting their bikes to a bike shop. We call to your office or home anywhere in greater Dublin. </p>
+
+                    <p>Fast, convenient bike servicing with up-front pricing. All without the hassle of taking your bike into a shop.</p>
+                    <!-- Adding a button using button tag
+                    <button>Click Here</button> -->
+                    <!-- Problem with button tag is that we cannot format it much so we are gonna use an a tag instead and then gonna add some padding to it-->
+                    <a href="test-page.html" class="mybutton">Try Our Service</a>
+                    </div>
+                    <div class="herobox2">
+                        <img src="images/image-bike-repair-service.jpg" alt="person servicing a bike in Dublin">
+                    </div>
+        </main>
+        <div class="cards">
+                    <!-- <a href="#"> if we do this then our flexbox wont work as a has become direct parent of card 1 therefore we cannot use a tag directly  -->
+                        <div class="card1">
+                            <!-- making our cards as clickalble links buy using a tags, we can do it one by one in each i h2 and p tags since they arev in card1 we can directly use our a tag in card one -->
+
+                            <a href="">
+                                <i class="fas fa-motorcycle"></i>
+                                <h2>Book Online</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga accusamus tempore in dicta mollitia debitis?</p>
+                            </a>
+                        </div>
+                    
+            <div class="card2">
+                <a href="">
+                    <i class="fas fa-cogs"></i>
+                    <h2>Service Types</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga accusamus tempore in dicta mollitia debitis?</p>
+                </a>
+            </div>
+            <div class="card3">
+                <a href="">
+                    <i class="fas fa-phone"></i>
+                    <h2>Call for Advice</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga accusamus tempore in dicta mollitia debitis?</p>
+                </a>
+            </div>
+        </div>
+        <div class="testimonials">
+            <div class="tbox">
+                <p>"I would like to personally thank you for your outstanding product. You guys rock! It's all good. I can't say enough about Roar Cycles."</p>
+                <p>- Tammara I.</p></div>
+
+                <div class="tbox">
+                    <p>"Roar Cycles is the most valuable business resource we have EVER purchased. I will let my mum know about this, she could really make use of Roar Cycles! Roar Cycles has completely surpassed our expectations."
+                    </p>
+                    <p>- Floris V.</p></div>
+                    <div class="tbox">
+                        <p>"I'm good to go. Roar Cycles is both attractive and highly adaptable. I will refer everyone I know."</p>
+                        <p>- Carlin B.</p>
+                    </div>
+                    <div class="tbox">
+                        <p>"Roar Cycles impressed me on multiple levels. I would gladly pay over 600 dollars for Roar Cycles. We can't understand how we've been living without Roar Cycles."
+                         </p>
+                        <p>- Eve V.</p>
+                    </div>
+        </div>
+
+
+
+
+    </div> 
+</body>
+</html>
